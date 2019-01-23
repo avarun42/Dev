@@ -1,6 +1,11 @@
 import java.util.*;
 
-class Solution {
+class InterviewQuestion {
+    /**
+     *  1) What is the output of this program?
+     *  2) What is the runtime complexity?
+     */
+
     static void makeLists(int N) {
         ArrayList<List<Integer>> x = new ArrayList<>(); // [[]]
         ArrayList<Integer> y = new ArrayList<>(Arrays.asList(1, 2, 3)); // [1, 2, 3]
